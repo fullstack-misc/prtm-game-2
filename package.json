@@ -1,0 +1,25 @@
+{
+  "name": "prtm-game-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "prettier --check ./src/**/*.ts",
+    "format": "prettier --write ./src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2"
+  }
+}
