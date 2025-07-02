@@ -12,6 +12,7 @@ Réussir à atteindre la sortie du labyrinthe en utilisant le moins de déplacem
 - Node.js + npm
 - dotenv
 - TypeScript
+- Jest
 
 ## Installation
 Pré-requis : [Node.js](https://nodejs.org/en/download/)
@@ -44,6 +45,17 @@ ou pour le mode développement :
 ```bash
 npm run dev
 ```
+
+5. Pour lancer les tests :
+- Lancement des tests unitaires :
+  ```bash
+  npm run test
+  ```
+- Lancement des tests unitaire avec couverture de code :
+  ```bash
+  npm run test:coverage
+  ```
+
 
 ## Améliorations possibles
 - Compléter les tests.
