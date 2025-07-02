@@ -1,7 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
+.idea
+coverage/
 dist/
+logs/*
+!.logs/.gitkeep
 node_modules/
 .env
 
