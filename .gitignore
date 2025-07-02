@@ -5,7 +5,7 @@
 coverage/
 dist/
 logs/*
-!.logs/.gitkeep
+!logs/.gitkeep
 node_modules/
 .env
 
